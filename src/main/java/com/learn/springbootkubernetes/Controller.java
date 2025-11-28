@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @RequestMapping("/")
     public String index() {
-        return "Hi, Hi. Hello Spring-Boot app successfully deployed and running on Openshift!!! V0.0.0.1";
+        return "GA - 7.9 ";
     }
 }
