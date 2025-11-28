@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @RequestMapping("/")
     public String index() {
-        return "GA - 7.9 ";
+        return "GA - 7.9.1 ";
     }
 }
